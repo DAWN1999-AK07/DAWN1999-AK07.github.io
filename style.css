@@ -19,13 +19,12 @@ body {
 .cm-card:hover {
   background-color: #333;
 }
-.output-box {
-  margin-top: 20px;
-  padding: 15px;
-  border: 1px dashed #666;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #f8f8f8;
-  background-color: #1a1a1a;
+a.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }

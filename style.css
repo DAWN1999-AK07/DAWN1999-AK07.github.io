@@ -1,14 +1,31 @@
 body {
-  background-color: #111;
-  color: #eee;
-  font-family: 'Courier New', monospace;
+  background-color: #0e0e0e;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
 }
-button {
+.cm-card {
+  background-color: #222;
+  border: 1px solid #555;
+  color: #eee;
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.cm-card:hover {
   background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  font-size: 16px;
+}
+.output-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed #666;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f8f8f8;
+  background-color: #1a1a1a;
 }

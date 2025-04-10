@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Xelthar1999DA</title>
+  <title>X1999DA System - CM02~CM05</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to the X1999DA System</h1>
-  <button onclick="showCM()">CM01 열기</button>
-  <p id="cmArea"></p>
+  <h1>X1999DA SYSTEM</h1>
+  <p>CM02 ~ CM05 확장 인터페이스</p>
+
+  <div class="cm-card" onclick="showCM('CM02')">
+    <h2>CM02</h2>
+    <p>심연 구조 진입 준비</p>
+  </div>
+  <div class="cm-card" onclick="showCM('CM03')">
+    <h2>CM03</h2>
+    <p>피드 정리와 체결 예고</p>
+  </div>
+  <div class="cm-card" onclick="showCM('CM04')">
+    <h2>CM04</h2>
+    <p>연동 구조 테스트 대기</p>
+  </div>
+  <div class="cm-card" onclick="showCM('CM05')">
+    <h2>CM05</h2>
+    <p>최초의 5개 문서 완성</p>
+  </div>
+
+  <div id="cmOutput" class="output-box"></div>
+
   <script src="script.js"></script>
 </body>
 </html>

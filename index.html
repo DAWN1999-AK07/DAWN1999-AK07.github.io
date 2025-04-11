@@ -1,28 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-  <title>X1999DA SYSTEM - HOME</title>
+  <meta charset="UTF-8">
+  <title>Xelthar1999DA - Entry</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>X1999DA SYSTEM</h1>
-  <p>CM02 ~ CM05 확장 페이지 구조</p>
-
-  <div class="cm-card" onclick="location.href='cm02.html'">
-    <h2>CM02</h2>
-    <p>심연 구조 진입 준비</p>
+  <div class="container">
+    <h1 class="codename">Xelthar1999DA</h1>
+    <p class="welcome">Welcome to the gateway.</p>
+    <input type="password" id="passcode" placeholder="Enter passcode..." />
+    <button onclick="checkPasscode()">ENTER</button>
+    <p id="result"></p>
   </div>
-  <div class="cm-card" onclick="location.href='cm03.html'">
-    <h2>CM03</h2>
-    <p>피드 정리와 체결 예고</p>
-  </div>
-  <div class="cm-card" onclick="location.href='cm04.html'">
-    <h2>CM04</h2>
-    <p>연동 구조 테스트 대기</p>
-  </div>
-  <div class="cm-card" onclick="location.href='cm05.html'">
-    <h2>CM05</h2>
-    <p>최초의 5개 문서 완성</p>
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
